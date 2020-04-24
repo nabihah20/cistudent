@@ -7,13 +7,17 @@
         <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/style.css">
         <script src="http://cdn.ckeditor.com/4.14.0/standard/ckeditor.js"></script>
 
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="<?php echo base_url(); ?>/assets/img/favicon.ico" type="image/x-icon">
+        <title>ciStudent - Student Registration System</title>
     </head>
     <body>
     </body>
     <nav class="navbar navbar-inverse">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="<?php echo base_url(); ?>">ciStudent</a>
+          <a class="navbar-brand" href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>/assets/img/logociStd.png" style="width: 25px; height:25px"  alt="" title="ciStudent" /></a>
         </div>
         <div id="navbar">
           <ul class="nav navbar-nav">
