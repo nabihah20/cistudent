@@ -1,7 +1,7 @@
 <?php
     class Students extends CI_Controller{
         public function index(){
-            $data['title'] = 'All Student Details';
+            $data['title'] = 'List of Students';
 
             $data['students'] = $this->student_model->get_students();
 
